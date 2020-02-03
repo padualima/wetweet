@@ -48,6 +48,7 @@ group :test do
 end
 
 group :development, :test do
+ gem 'pry'
   # Test framework
  gem 'rspec-rails', '~> 3.5'
  # Debbug
