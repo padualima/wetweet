@@ -34,7 +34,7 @@ gem 'whenever', :require => false
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 # jwt authentication
-gem 'knock', '~> 2.1', '>= 2.1.1'
+gem 'knock', '~> 2.0'
 # Serializer json
 gem 'active_model_serializers'
 
