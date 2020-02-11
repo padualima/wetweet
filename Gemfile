@@ -38,9 +38,11 @@ gem 'knock', '~> 2.0'
 # Serializer json
 gem 'active_model_serializers'
 
+gem 'rubocop-rspec'
+
 group :test do
   # Generate record based in a model
-  gem 'factory_bot_rails', "~> 4.0"
+  gem 'factory_bot_rails'
   # Fakker datas
   gem "ffaker"
   # Clean db adter test
