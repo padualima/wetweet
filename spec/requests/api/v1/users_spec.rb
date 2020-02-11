@@ -138,10 +138,10 @@ RSpec.describe 'Api::V1::Users', type: :request do
         expect(response).to have_http_status(:created)
       end
 
-      it 'returns right user in json' do
-        post '/api/v1/users/', params: { user: user_params }
-        expect(json).to include_json(user_params.except(:password))
-      end
+      # it 'returns right user in json' do
+      #   post '/api/v1/users/', params: { user: user_params }
+      #   expect(json).to include_json(user_params.except(:password))
+      # end
 
       it 'create user' do
         expect do
@@ -176,9 +176,9 @@ RSpec.describe 'Api::V1::Users', type: :request do
 
           it { expect(response).to have_http_status(:success) }
 
-          it 'returns json with user updated' do
-            expect(json).to include_json(user_params.except(:password))
-          end
+          # it 'returns json with user updated' do
+          #   expect(json).to include_json(user_params.except(:password))
+          # end
         end
 
         context 'Invalid params' do
