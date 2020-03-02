@@ -40,6 +40,10 @@ gem 'active_model_serializers'
 
 gem 'rubocop-rspec'
 
+gem 'carrierwave'
+gem 'carrierwave-base64'
+gem 'cloudinary'
+
 group :test do
   # Generate record based in a model
   gem 'factory_bot_rails'

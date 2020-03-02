@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dvjclme28
+  api_key: '749144634329378'
+  api_secret: hj1mip0dhtxDxJ90Tcw8meYE--s
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dvjclme28
+  api_key: '749144634329378'
+  api_secret: hj1mip0dhtxDxJ90Tcw8meYE--s
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dvjclme28
+  api_key: '749144634329378'
+  api_secret: hj1mip0dhtxDxJ90Tcw8meYE--s
+  enhance_image_tag: true
+  static_file_support: false
