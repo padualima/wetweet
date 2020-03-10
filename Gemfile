@@ -37,6 +37,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'knock', '~> 2.0'
 # Serializer json
 gem 'active_model_serializers'
+# Job scueduler execution
+gem 'sidekiq-scheduler'
 
 gem 'rubocop-rspec'
 
