@@ -15,6 +15,12 @@ class User < ApplicationRecord
   acts_as_follower
   has_many :tweets, dependent: :destroy
 
+  searchkick
+
+  def search_data
+    { name: name, email: email }
+  end
+
   def timeline
     timeline = tweets.map { |tweet| tweet }
     all_following.each do |user|
