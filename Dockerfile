@@ -12,5 +12,6 @@ WORKDIR $INSTALL_PATH
 COPY Gemfile ./
 # Seta o path para as Gems
 ENV BUNDLE_PATH /box
+
 # Copia nosso código para dentro do container
 COPY . .
